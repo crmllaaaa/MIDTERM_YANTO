@@ -1,0 +1,131 @@
+/* General Layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Navigation */
+nav {
+    margin-bottom: 20px;
+}
+
+nav .btn {
+    background-color: #fc038c;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+nav .btn:hover {
+    background-color: #e01384;
+}
+
+/* Form Styles */
+form p {
+    margin-bottom: 15px;
+}
+
+form input, form select, form button {
+    padding: 10px;
+    margin-top: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #fc038c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #e01384;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #fc038c;
+    color: white;
+}
+
+table td {
+    background-color: #f9f9f9;
+}
+
+/* Button for Actions */
+.btn-edit, .btn-delete {
+    padding: 5px 10px;
+    background-color: #ff9800;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.btn-edit:hover {
+    background-color: #e68900;
+}
+
+.btn-delete {
+    background-color: #f44336;
+}
+
+.btn-delete:hover {
+    background-color: #da190b;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    font-weight: normal; 
+    
+}
+
+table th {
+    background-color: #fc038c;
+    color: white;
+    font-weight: bold; 
+    
+}
+
+table td {
+    background-color: #f9f9f9;
+    font-weight: normal; 
+    
+}
